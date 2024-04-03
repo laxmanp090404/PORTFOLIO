@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.whole {
+    display: flex;
+}
+
+.div1 {
+    background-color: black;
+    height: 100vh;
+    width: 20%;
+}
+.abt-content{
+    
+    position: absolute;
+    width: 35rem;
+    
+    left: 50%;
+    top: 32%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    opacity: 0.8;
+  
+}
+
+.div2 {
+    background-color: aliceblue;
+    width: 100%; 
+    height: 100vh;
+    position: relative;
+    overflow-y: auto; 
+}
+
+.name {
+    font-size: 3rem;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+}
+
+.designation {
+    position: absolute;
+    font-size: 3rem;
+    top: 35%;
+    left: 6.5%;
+    margin-bottom: 1px;
+}
+
+.home {
+    background-image: url("./assets/bg1.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+}
+
+.profile img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 30px;
+    left: 87px;
+    border-radius: 40px;
+    border: rgb(68, 68, 68) 6px solid;
+}
+
+.profile p {
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    top: 7.5rem;
+    left: 5.8rem;
+}
+
+.profile {
+    position: relative;
+}
+
+.connect-icons {
+    position: absolute;
+    top: 9rem;
+    margin-left: 1rem;
+    margin-top: 6px;
+}
+
+.connect-icons a {
+    margin: 0.5rem;
+    opacity: 0.25;
+}
+
+.connect-icons a:hover {
+    opacity: 1;
+    
+}
+
+.sidenav li {
+    margin: 3px;
+    display: flex; 
+    align-items: center; 
+    opacity: 0.4;
+}
+
+.sidenav li:hover {
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.sidenav img {
+    height: 20px;
+    width: 20px;
+}
+
+.sidenav {
+    position: fixed; 
+    top: 12.5rem;
+    left: 1.1rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.resumebtn {
+    padding: 0.5rem;
+    border-radius: 9px;
+    position: relative;
+    left: 60px;
+    top: 7rem;
+    cursor: pointer;
+    background-image: -webkit-radial-gradient(white,rgb(66, 66, 66));
+}
+.resumebtn:hover{
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+}
+.headings {
+    text-shadow: 2px 3px;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding-top: 5rem;
+    text-transform: uppercase;
+}
+
+.profile-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+.profile-icons img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 6%;
+    background-image: linear-gradient(white,rgb(116, 116, 116));
+    border-radius: 30px;
+    padding: 20px;
+
+}
+.profile-icons img:hover{
+    box-shadow: 0 0 30px rgb(255, 230, 0);
+}
+
+.profile-icons h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size:1.5rem;
+}
+.web-skill-icons a,.prog-skills a{
+    padding-right: 15%;
+    padding-bottom: 23%;
+  }
+  .web-skill-icons,.prog-skills{
+    margin: 6%;
+  }
+  .projects{
+    display: flex;
+    justify-content: space-between;
+  margin: 4%;
+   flex-wrap: wrap;
+   margin-top: 0;
+  }
+  .project{
+    display: inline-block;
+    margin-top: 3%;
+    border: #ffe1e1 solid 2px;
+    padding: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 5%;
+    cursor: pointer;
+    background-image: linear-gradient(white,#878787);
+  }
+  .project:hover{
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+}  
+.special-heading1 {
+    font-family:Papyrus;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 0.25rem; 
+    
+  }
+  
+  .special-heading2 {
+    font-family:monospace;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 0;
+    margin-left: 1rem;
+    margin-bottom: 0.25rem;
+    margin-top: 5rem; 
+  }
+  .special-heading3{
+    font-family: Papyrus;
+  
+    font-size: 0.75rem;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .github-icon{
+    width: 40px;
+    height: 40px;
+  }
+  #codingprofilesection{
+    background-image: url("./assets/whitebg.jpg");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+#projects{
+    background-image: url("./assets/bg3.jpg");
+    background-size: cover;
+    height: fit-content;
+    background-position: center;
+    margin: 0%;
+}
+#projects h2,#projects p{
+    color: black;
+}
+#skills{
+    background-image: url("./assets/bg4.jpg");
+    background-size: contain;
+    height: fit-content;
+    background-position: center;
+    color: rgb(245, 184, 0);
+}
+.web-skill-icons img{
+    background-image: linear-gradient(white,rgb(110, 110, 110));
+   
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+}
+.web-skill-icons img:hover{
+    
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+}
+.prog-skills img{
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5.8rem;
+    
+    background-image: linear-gradient(white,rgb(110, 110, 110));
+}
+.prog-skills img:hover{
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+}
+.prog-skills{
+    margin-bottom: 0;
+}
+.sidenav.active {
+   
+        transition: visibility 1s ease;
+        visibility: visible;
+      }
+  
+     
